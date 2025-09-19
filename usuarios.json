@@ -1,0 +1,9 @@
+{"usuarios":[
+    {"id": 1, "nombre": "Ana", "edad": 25},
+    {"id": 2, "nombre": "Juan", "edad": 30},
+    {"id": 3, "nombre": "jose","edad":21},
+    {"id": 4, "nombre": "pepe","edad":20},
+    {"id": 5, "nombre": "lalo","edad":21},
+    {"id": 3, "nombre": "laslo","edad":19},
+    {"id": 3, "nombre": "carloncho","edad":54}
+  ]}

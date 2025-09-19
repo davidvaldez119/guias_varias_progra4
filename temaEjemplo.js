@@ -1,8 +1,8 @@
 const button= document.querySelector("button");
 button.addEventListener("click",function onne(){
-fetch(" https://pokeapi.co/api/v2/pokemon/ditto")
+fetch("http://localhost:3000/montanias")
 .then(response=>response.json())
-.then(data=>{console.log("post:",data);
+.then(data=>{console.log("get:",data);
 
 })
 .catch(error=>{console.log("error",error);

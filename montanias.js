@@ -7,3 +7,4 @@ const MOUNTAINS = [
     {name: "Popocatepetl", height: 5465, place: "Mexico"},
     {name: "Mont Blanc", height: 4808, place: "Italy/France"}
   ]; 
+  console.log(JSON.stringify(MOUNTAINS));
