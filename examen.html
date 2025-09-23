@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Montañas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    .tarjeta-montania {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .acciones-tarjeta button {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Montañas</h1>
+
+  <!-- Formulario para agregar una montaña -->
+  <form id="formulario-montania">
+    <label>
+      Nombre:
+      <input type="text" id="name" required />
+    </label>
+    <br /><br />
+
+    <label>
+      Altura:
+      <input type="number" id="height" required />
+    </label>
+    <br /><br />
+
+    <label>
+      Lugar:
+      <input type="text" id="place" required />
+    </label>
+    <br /><br />
+
+    <button type="submit">Agregar montaña</button>
+  </form>
+
+  <!-- Contenedor para mostrar los datos -->
+  <section id="contenedor-datos">
+    <p>Cargando montañas...</p>
+  </section>
+
+  <!-- Tu script JS -->
+  <script src="examen.js"></script>
+
+</body>
+</html>
